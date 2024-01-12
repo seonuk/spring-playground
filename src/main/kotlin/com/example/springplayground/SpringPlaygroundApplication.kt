@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-@EnableTransactionManagement
 class SpringPlaygroundApplication
 
 fun main(args: Array<String>) {
