@@ -9,8 +9,13 @@ class TestController(
     val testService: TestService
 ) {
 
-    @GetMapping("/test")
+    @GetMapping("/v1/test")
     fun test() {
         testService.test()
+    }
+
+    @GetMapping("/v1/error")
+    fun testError() {
+        testService.testError()
     }
 }
