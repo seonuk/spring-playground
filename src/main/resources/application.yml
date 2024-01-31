@@ -7,3 +7,20 @@ spring:
     listener:
       simple:
         acknowledge-mode: auto
+#
+#  batch:
+#    job:
+#      enabled: true
+#      names: ${job.names:testJob}
+#    jdbc:
+#      initialize-schema: always
+#      table-prefix: BATCH_d
+#
+#  data:
+#    mongodb:
+#      uri: mongodb://localhost:27017
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: localhost:3306
+#    username: root
+#    password: root

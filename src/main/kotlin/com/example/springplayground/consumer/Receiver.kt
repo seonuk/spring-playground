@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component
 
 @Component
 class Receiver {
-
     @RabbitListener(queues = [RabbitMQConfig.QUEUE_NAME])
     fun receiveMessage(message: String) {
         try {

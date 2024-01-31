@@ -10,8 +10,6 @@ import org.springframework.context.annotation.Configuration
 
 @Configuration
 class RabbitMQConfig {
-
-
     @Bean
     fun queue(): Queue {
         return QueueBuilder.nonDurable(QUEUE_NAME)
